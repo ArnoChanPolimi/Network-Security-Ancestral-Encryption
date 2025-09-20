@@ -9,7 +9,7 @@ function caesar_bruteforce_simple(ciphertext)
 clc; 
 
 if nargin < 1
-    error('请提供密文字符串作为输入，例如: caesar_bruteforce_simple(''Twt rxewtg ztn xh uxuittc'')');
+    error('请提供密文字符串作为输入，例如: caesar_bruteforce_simple(''Twt rxewtg ztn xh uxuittc.'')');
 end
 
 fprintf('Ciphertext: %s\n\n', ciphertext);
